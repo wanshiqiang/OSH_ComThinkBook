@@ -11,9 +11,8 @@ Welcome to OSH_ComThinkBook's documentation!
    :caption: Contents:
    
    bookDirs/introduction.md
-   bookDirs/SUMMARY.md
-   bookDirs/dirPart1.md
-   bookDirs/dirPart2.md
+   bookDirs/dirPart1.rst
+   bookDirs/dirPart2.rst
    
 
 
