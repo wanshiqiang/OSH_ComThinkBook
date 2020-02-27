@@ -34,6 +34,7 @@
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/theme_vue/vue.css" type="text/css" />
     <link rel="index" title="索引" href="../../genindex.html" />
     <link rel="search" title="搜索" href="../../search.html" />
     <link rel="next" title="第2课：初识编程环境" href="part1_2.html" />
@@ -88,7 +89,7 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">第1课：认识开源硬件</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id2">一、什么是开源硬件</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id3">二、开源硬件的分类</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">三、中小学信息技术教学中常用的开源硬件</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">三、开源硬件的衍生产品</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="part1_2.html">第2课：初识编程环境</a></li>
@@ -166,28 +167,61 @@
 <h1>第1课：认识开源硬件<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
 <div class="section" id="id2">
 <h2>一、什么是开源硬件<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>截取<a class="reference external" href="https://baike.baidu.com/item/%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6/2605144?fr=aladdin">百度百科开源硬件</a>词条中的定义如下：</p>
+<p>截取百度百科词条中的定义如下：</p>
 <blockquote>
-<div><p>开源硬件指与自由及开放原始码软件相同方式设计的计算机和电子硬件。主要是用来反映自由释放详细信息的硬件设计，如电路图、材料清单和电路板布局数据，通常使用开源软件来驱动硬件。</p>
+<div><p><a class="reference external" href="https://baike.baidu.com/item/%E5%BC%80%E6%BA%90%E7%A1%AC%E4%BB%B6/2605144?fr=aladdin">百度百科</a>：开源硬件指与自由及开放原始码软件相同方式设计的计算机和电子硬件。主要是用来反映自由释放详细信息的硬件设计，如电路图、材料清单和电路板布局数据，通常使用开源软件来驱动硬件。</p>
 </div></blockquote>
+<p>确实，看了这个样的定义还是令人对“开源硬件”一头雾水，对吧？下面帮助大家来理解一下。</p>
+<p>我相信大家对“硬件”一词并不陌生，陌生的是“开源”，我们先来说说它的反义词“闭源”。</p>
+<ul class="simple">
+<li><p>什么是<strong>闭源</strong></p>
+<ul>
+<li><p>我们如果把开发计算机/电子产品比作是画画，因为每一个人的技能、设计灵感都不一样，所以画出画也不会完全一致，同样不同公司设计电子产品也是如此，很多公司都会选择把自己的技术专利等资源保护起来，即<strong>闭源</strong>，如著名的苹果公司旗下的电脑、iPhone都是闭源的。</p></li>
+<li><p>但<strong>闭源</strong>往往会让强者更强，甚至出现垄断。没有竞争对手、一家独大的局面对整个电子产业的发展来说可以不是什么好事？所以有些崇尚自由的伟大人士，愿意开放出自己的资源，供人们使用。</p></li>
+</ul>
+</li>
+<li><p>什么是<strong>开源</strong></p>
+<ul>
+<li><p>开源，可以理解为“开放自己的资源”的意思。</p></li>
+<li><p>开源是自由使用的，但也不完全等同于免费。</p></li>
+<li><p>开源，使用维护的人多了，开源产品自然就越来越好了。</p></li>
+</ul>
+</li>
+<li><p>什么是<strong>开源硬件</strong></p>
+<ul>
+<li><p>试着再去看看百度百科关于<strong>开源硬件</strong>的定义吧。</p></li>
+<li><p>通俗来说，就是将硬件的设计方案公布与众，大家都可以根据它的电路图、材料清单和电路板布局数据等资料来使用它、完善它。</p></li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="id3">
 <h2>二、开源硬件的分类<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
 <ul class="simple">
-<li><p>Arduino</p></li>
+<li><p>开源硬件鼻祖：Arduino</p></li>
 </ul>
 <blockquote>
 <div><p><a class="reference external" href="https://baike.baidu.com/item/Arduino">百度百科</a>：Arduino是一款便捷灵活、方便上手的开源电子原型平台。包含硬件（各种型号的Arduino板）和软件（ArduinoIDE)。</p>
 </div></blockquote>
 <p><img alt="Arduino UNO主板.png" src="https://wansq.oss-cn-shanghai.aliyuncs.com/img/20200223144656-2020-2-23-14-46-57.png" /></p>
 <ul class="simple">
-<li><p>Micro:bit</p></li>
-<li><p>树莓派</p></li>
+<li><p>开源硬件新秀：Micro:bit</p></li>
+<li><p>开源硬件巨人：树莓派</p></li>
 </ul>
 </div>
 <div class="section" id="id4">
-<h2>三、中小学信息技术教学中常用的开源硬件<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
-<p>开源是自由的，任何人都可以自由的使用开源的资源，随着STEAM教育、创客教育的开展，国内有很多公司基于开源硬件进行二次开发了自己的主板，以方便中小学生学习开源硬件，虽然很多主板的接线、编程环境各有特色，但其电路设计、编程方案都是大同小异的。本教程主要基于以下几种主板编写。</p>
+<h2>三、开源硬件的衍生产品<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<p>开源是自由的，任何人都可以自由的使用开源的资源，随着STEAM教育、创客教育的开展，国内有很多公司基于开源硬件进行二次开发了自己的主板，以方便中小学生学习开源硬件，虽然很多主板的接线、编程环境各有特色，但其电路原理、编程方法都是大同小异的，希望读者通过本教程的学习，可以掌握开源硬件编程的通用方法，举一反三地使用开源硬件。</p>
+<p>本教程主要基于以下几种主板编写：</p>
+<ul class="simple">
+<li><p>Arduino衍生产品</p>
+<ul>
+<li><p>OSTD开源机器人套件（苏教版小学信息技术课程用书使用）</p></li>
+<li><p>美科智能套件</p></li>
+</ul>
+</li>
+<li><p>Micro:bit</p></li>
+</ul>
 </div>
 </div>
 
