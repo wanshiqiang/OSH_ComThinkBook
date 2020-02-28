@@ -68,6 +68,16 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# 添加主题以外的css样式
 html_css_files = [
     'css/theme_vue/vue.css',
 ]
+
+# 完全用自定义的css
+# html_style = 'css/theme_vue/vue.css'
+
+# latex_engine = 'xelatex'
+# latex_use_xindy = False
+# latex_elements = {
+#     'preamble': '\\usepackage[UTF8]{ctex}\n',
+# }

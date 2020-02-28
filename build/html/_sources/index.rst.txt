@@ -6,11 +6,14 @@
 Welcome to OSH_ComThinkBook's documentation!
 ============================================
 
+简介
+-----
+本教程围绕“开源硬件+计算思维”主题，基于现阶段中小学开源硬件编程教学编写。
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录:
    
-   bookDirs/introduction.md
    bookDirs/dirPart1.rst
    bookDirs/dirPart2.rst
    
