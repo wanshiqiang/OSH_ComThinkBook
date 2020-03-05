@@ -16,6 +16,7 @@ Welcome to OSH_ComThinkBook's documentation!
    
    bookDirs/dirPart1.rst
    bookDirs/dirPart2.rst
+   bookDirs/dirPart3.rst
    
 
 

@@ -369,11 +369,21 @@ h1 {
 }
 
 h2 {
-    font-size: 1.75rem;
+    /* font-size: 1.75rem;
     line-height: 1.225;
     margin: 35px 0 15px;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; */
+    
+    display: inline-block;
+    font-weight: bold;
+    /* background: rgb(239, 112, 96); */
+    background:#42b983;
+    color: #ffffff;
+    padding: 3px 10px 1px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-right: 3px;
 }
 
 h3 {
@@ -723,4 +733,14 @@ footer {
 
 .html-for-mac .context-menu {
     --item-hover-bg-color: #E6F0FE;
+}
+h2 span {
+    display: inline-block;
+    font-weight: bold;
+    background: rgb(239, 112, 96);
+    color: #ffffff;
+    padding: 3px 10px 1px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    margin-right: 3px;
 }
