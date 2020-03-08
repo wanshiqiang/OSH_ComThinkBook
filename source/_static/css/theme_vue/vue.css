@@ -386,6 +386,14 @@ h2 {
     margin-right: 3px;
 }
 
+/* h2:after {
+    display: inline-block;
+    content: " ";
+    vertical-align: bottom;
+    border-bottom: 36px solid #efebe9;
+    border-right: 20px solid transparent;
+} */
+
 h3 {
     font-size: 1.4rem;
     line-height: 1.43;
