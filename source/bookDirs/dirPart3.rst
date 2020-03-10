@@ -8,3 +8,4 @@
    
    ../bookChapters/part3/part3_1.md
    ../bookChapters/part3/part3_2.md
+   ../bookChapters/part3/part3_3.md
