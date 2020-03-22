@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OSH_ComThinkBook's documentation!
+欢迎来到开源硬件的世界
 ============================================
 
 .. toctree::
@@ -14,4 +14,5 @@ Welcome to OSH_ComThinkBook's documentation!
    bookDirs/dirPart2.rst
    bookDirs/dirPart3.rst
    bookDirs/dirPart4.rst
+   bookDirs/dirRobot.rst
    
