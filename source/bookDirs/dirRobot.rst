@@ -7,3 +7,4 @@
    :caption: Contents:
    
    ../bookChapters/robot/robot1.md
+   ../bookChapters/robot/robot2.md
