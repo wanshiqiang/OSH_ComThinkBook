@@ -9,3 +9,4 @@
    ../bookChapters/robot/robot1.md
    ../bookChapters/robot/robot2.md
    ../bookChapters/robot/robot3.md
+   ../bookChapters/robot/robot4.md
