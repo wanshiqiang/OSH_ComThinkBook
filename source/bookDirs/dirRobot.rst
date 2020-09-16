@@ -11,3 +11,4 @@
    ../bookChapters/robot/robot3.md
    ../bookChapters/robot/robot4.md
    ../bookChapters/robot/robot5.md
+   ../bookChapters/robot/robot6.md
