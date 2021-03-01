@@ -10,7 +10,6 @@
    :maxdepth: 2
    :caption: 目录:
 
-   bookDirs/dirPart1x.rst
    bookDirs/dirPart2.rst
    bookDirs/dirPart3.rst
    bookDirs/dirPart4.rst
