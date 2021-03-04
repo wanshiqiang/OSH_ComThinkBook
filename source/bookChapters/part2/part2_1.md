@@ -3,7 +3,7 @@
 ## 一、初识LED灯
 &emsp;&emsp;`LED灯`是一种能够将电能转化为可见光的固态的半导体器件，它可以直接把电转化为光。LED灯逐步融入到生活中的方方面面：室内外的照明、电子指示牌、酷炫的舞台灯光、车辆的转向灯等等都有`LED`的存在。
 
-![生活中的LED灯](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210302095508.png)
+<img src="https://gitee.com/wansq0211/markdownImg/raw/master/img/20210302095508.png" alt="生活中的LED灯" style="zoom:80%;" />
 
 &emsp;&emsp;从信息的视角看，`LED灯`是一种`输出装置`，除了可以照明以外，也可以作为机器表达信息的一种方式。本节我们就来学习使用`LED灯`。
 
@@ -86,8 +86,20 @@
 需要特别注意的是：
 
 - 参数1：是指输出的引脚，而不是橙色的`Rj45`端口。
+
+  - 可以再xDing的Arduino模式查看橙色的`Rj45`端口与引脚的对应关系，如下图所示，端口1对于的引脚是10。
+
+    ![Arduino模式下查看端口与引脚的关系](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210304124907.png)
+
+  - 并非所有引脚都支持模拟输出，只有带`~`的引脚是`模拟输出引脚`。如下图所示：
+
+  - ![物联网扩展版模拟引脚图](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210304125600.png)
+
 - 参数2：数字越大，输出功率越大，灯就越亮。
 
 &emsp;&emsp;**编程脚本**：
 
-&emsp;&emsp;**编程解析**：
+![呼吸灯脚本OSTD版本](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210304123744.png)
+
+&emsp;&emsp;**编程解析**：通过`亮度值`变量来改变`模拟输出指令`中的输出参数，注意为了防止输出电压过大，亮度值最好不要到255。
+
