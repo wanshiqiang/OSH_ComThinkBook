@@ -684,6 +684,11 @@ table tr td:last-child {
     color: inherit;
 }
 
+p .md-image:only-child{
+    width: auto;
+    text-align: left;
+}
+
 .md-tag {
     color: inherit;
 }
