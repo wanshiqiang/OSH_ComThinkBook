@@ -65,22 +65,7 @@
 机器人不仅有“器官”，还能用它们来处理问题。其实机器人处理信息的过程和人类相似。
 问：机器人如何感知现实生活中的信息？举例。
 
-```mermaid
-graph LR;
-  subgraph 机器人的组成
-    a(机器人)
-    b(控制系统)
-    c(电力单元)
-    d(传感器)
-    e(驱动器)
-    f(机身)
-    a-->b
-    a-->c
-    a-->d
-    a-->e
-    a-->f
-  end
-```
+![机器人的组成](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210312121645.png)
 
 ### 控制系统
 
@@ -92,28 +77,11 @@ graph LR;
 
 ### 传感器
 
-```mermaid
-graph LR;
-  subgraph 传感器
-      a(传感器)
-      a-->红外线传感器
-      a-->灰度传感器
-      a-->温度传感器
-      a-->声音传感器
-      a-->....
-  end
-```
+![传感器分类](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210312121733.png)
 
 ### 驱动器
 
-```mermaid
-graph LR;
-  subgraph 驱动器
-      a(驱动器)
-      a-->直流电机
-      a-->舵机
-  end
-```
+![驱动器分类](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210312121807.png)
 
 ### 机身
 
