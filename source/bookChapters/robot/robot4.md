@@ -65,9 +65,9 @@
 
   ![走迷宫左手法则静态示意图](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210330085830.png)
 
-  我们可以在Scratch中让小猫角色用左手法则模拟走迷宫。
+  我们可以在Scratch中让小猫角色用左手法则模拟走迷宫，扫码观看。
 
-  ![小猫模拟走迷宫](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210330085051.gif)
+  ![小猫模拟走迷宫](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210330150139.png)
 
 * 算法提示：机器人要沿着左侧的墙行走，我们可以将这个大任务分解为几个可重复的小任务。
 
