@@ -24,4 +24,6 @@
 
 <img src="https://gitee.com/wansq0211/markdownImg/raw/master/img/20210330152431.jpg" alt="树莓派示意图" style="zoom:50%;" />
 
-## 三、关于本教程的开源硬件说明
+## 三、关于本教程的开源硬件说明——OSTD开源机器人
+
+&emsp;&emsp;本教程使用`OSTD开源机器人`套件作为主要教学用具，也是苏教版小学信息技术教材使用的套件。OSTD套件中的主控板是基于Arduino二次开发的主控板。
