@@ -57,5 +57,5 @@
 
 &emsp;&emsp;在开源硬件的编程中，`传感器`是一种`输出装置`，而`数码管`是一种`输出装置`，我们可以**从信息视角去理解秒表程序，即通过两个“开关”输入启动\停止的信号，主板经过一系列运算后，由输出设备——数码管来显示**。
 
-![信息视角理解秒表程序](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210425155051.png)
+![信息视角理解秒表程序](https://gitee.com/wansq0211/markdownImg/raw/master/img/20210427111427.png)
 
